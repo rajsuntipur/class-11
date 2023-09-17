@@ -12,7 +12,7 @@
 
 }
 /* ......... universal end .................... */
-
+/* ....................styel........... */
 a{
     text-decoration: none;
     display: inline-block;
@@ -58,7 +58,7 @@ ul li{
     padding-right: 0;
 }
 
-/* .......................  banar section .......... -- */
+
 .banner-section{
     background-image: url(./top-background.png);
 background-size: cover;
@@ -103,6 +103,6 @@ background-size: cover;
      transform: translateX(-50) ;
      }
 
-
+/* ................... styel end........... */
 
 
