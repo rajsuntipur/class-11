@@ -3,7 +3,7 @@
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
 
-.........universal....................
+/* ......... universal.................... */
 
 *{
     margin: 0;
@@ -11,6 +11,7 @@
     box-sizing: border-box;
 
 }
+/* ......... universal end .................... */
 
 a{
     text-decoration: none;
@@ -57,7 +58,7 @@ ul li{
     padding-right: 0;
 }
 
-/* .......................  banar section.......... -- */
+/* .......................  banar section .......... -- */
 .banner-section{
     background-image: url(./top-background.png);
 background-size: cover;
