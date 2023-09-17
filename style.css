@@ -25,6 +25,10 @@ ul li{
 }
 .header-section{
     height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .header-section .container{
     height: 100px;
@@ -43,14 +47,56 @@ ul li{
     font-weight: 700;
     color: white;
     padding: 14px 30px;
+    text-transform: uppercase;
 }
 .header-munu .munu li:last-child a{
-    padding: 0;
+    padding-right: 0;
 }
 
+/* .......................  banar section.......... -- */
+.banner-section{
+    background-image: url(./top-background.png);
+background-size: cover;
+    background-repeat: no-repeat;
+   
+    padding-top: 260px;
+    padding-bottom: 160px;
+ 
+}
+.banner-section .container h1{
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+    line-height: 68px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 80px;
 
 
+}
+.banner-section .container p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family:'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px; 
+    padding: 0 110px;
 
+}
+.banner-section .container a{ 
+    font-size: 13px;
+    background-color: #E84545;
+       font-family:'Raleway', sans-serif;
+       padding: 20px 45px;
+       color: white;
+       border-radius: 2px;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50) ;
+     }
 
 
 
