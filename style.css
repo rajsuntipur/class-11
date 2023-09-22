@@ -313,40 +313,52 @@ font-weight: 700;
 .indi .indi-item:nth-child(2){
 background-color: white;
 }
- /* ............download.............  */
- .download-section .container{
+ /* ..............download...............  */
+
+.download-section .container{
     width: 900px;
+    
     display: block;
     text-align: center;
     margin-bottom: 100px;
- }
- .download-section .containerr h1{
+
+}
+
+.download-section .container h1{
     font-size: 28px;
     font-weight: 300;
-    font-family:'Raleway', sans-serif;
+    font-family:'Raleway', sans-serif ;
     margin-top: 100px;
+    
 
- }
- .download-section .container p{
-    font-size: 13px;
+}
+
+.download-section .container p{
+    font-size:13px;
     font-weight: 500;
-    font-family:'Raleway', sans-serif;
+    font-family:'Raleway', sans-serif ;
     margin-top: 25px;
+    
 
- }
- .download-section .container a{
+}
+.download-section .container a{
     border-radius: 1px;
     background-color: #E84545;
     padding: 18px 80px;
-    font-family:'Raleway', sans-serif;
+    font-family:'Raleway', sans-serif ;  
     font-weight: 600;
     font-size: 13px;
     text-transform: uppercase;
-    color: white;
-    margin-top: 40px;
+    color: #fff;
+    margin-top: 40px;  
     transition: 0.4s;
+}
+.download-section .container a:hover{
+    cursor: pointer;
+    font-size: 120%;
+}
 
- }
+ 
  /* ..............about-section...........  */
 .about-section{
     background-color:#23253C ;
@@ -431,4 +443,40 @@ background-color: white;
     font-family:'Raleway', sans-serif ;
     color: #696A71;
     margin-top: 22px;
+}
+/* .............footer section.............  */ */
+
+.footer-section{
+    background-color: #1D1F32;
+    padding-top: 29px;
+    padding-bottom: 30px;
+    
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.footer-section .container{
+    width: 350px;
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+.footer-section .container p{
+    color: #808080;
+    font-family:'Raleway', sans-serif ; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+}
+
+.footer-section .container i{
+    color: red;
+    
+}
+.footer-section .container a{
+    color:#E4E4E8;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
 }
