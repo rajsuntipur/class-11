@@ -313,3 +313,37 @@ font-weight: 700;
 .indi .indi-item:nth-child(2){
 background-color: white;
 }
+ /* ............download.............  */
+ .download-section .container{
+    width: 900px;
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
+ }
+ .download-section .containerr h1{
+    font-size: 28px;
+    font-weight: 300;
+    font-family:'Raleway', sans-serif;
+    margin-top: 100px;
+
+ }
+ .download-section .container p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family:'Raleway', sans-serif;
+    margin-top: 25px;
+
+ }
+ .download-section .container a{
+    border-radius: 1px;
+    background-color: #E84545;
+    padding: 18px 80px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 40px;
+    transition: 0.4s;
+
+ }
