@@ -606,9 +606,24 @@ background-color: white;
         column-gap: 8px;
        
     }
-
-      
-        
+/* ...................About section.................. */
+    /* .about-section .container{
+        width: 930px;
+    }  */
+    .container {
+        max-width: 935px;
+    }
+    .about-section .container .location{
+        margin-left: 95px;
+    }
+    .about-section .container .share {
+        margin-left: 0px;
+        width: 214px;
+    }
+.footer-section .container {
+        width: 216px;
+    }
+    
     }
 
     
